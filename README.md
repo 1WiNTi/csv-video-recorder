@@ -5,6 +5,10 @@ opens DuckDuckGo, shows a custom SVG cursor, glides to the search box, types
 "Magento developer in <city>" character by character, clicks search and opens
 the first result. Effects: SVG cursor, yellow highlight, click ripple, callouts.
 
+## Sample output
+
+[`sample/sample.webm`](sample/sample.webm) - one video recorded by this tool.
+
 ## Setup (once)
 
 Run these two commands one after another:
@@ -23,7 +27,9 @@ python -m playwright install chromium
 python capture_video.py --headed
 ```
 
-
+The browser window is shown while recording (recommended: DuckDuckGo more often
+shows a bot check in background mode).
+Videos are saved to `./video/<Company Name>.webm`; the path is printed for every row.
 
 ## Files
 
@@ -31,3 +37,4 @@ python capture_video.py --headed
 - `qscript.py` - `CaptureVideo_Magento(...)`, `PATH_TO_VIDEO_FOLDER`, `ShowCallout(...)`
 - `input.csv` - sample input
 - `requirements.txt` - dependencies (Playwright)
+- `sample/sample.webm` - example of the recorded video
