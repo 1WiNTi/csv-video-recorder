@@ -7,7 +7,7 @@ the first result. Effects: SVG cursor, yellow highlight, click ripple, callouts.
 
 ## Sample output
 
-[`sample/sample.webm`](sample/sample.webm) - one video recorded by this tool.
+[`q.solutions.webm`](q.solutions.webm) - one video recorded by this tool.
 
 ## Setup (once)
 
